@@ -1,0 +1,23 @@
+.edit_property {
+  text-align: center;
+}
+
+.edit_property h2 {
+  font-size: 2.2em;
+}
+
+.edit_property p {
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+.edit_property .preview_title {
+  margin-bottom: 0.2em;
+  color: #000;
+  font-weight: bold;
+}
+
+.edit_property .preview_image {
+  max-width: 100%;
+  margin-bottom: 1em;
+}

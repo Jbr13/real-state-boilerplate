@@ -1,0 +1,45 @@
+.post_detail {
+    margin-bottom: 2em;
+    max-width: 300px;
+    overflow: hidden;
+    border: #444 solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post_detail img {
+    width: 100%; 
+    height: 250px;
+    object-fit: cover; /* Faz com que a imagem cubra a área sem distorcer */
+}
+
+.post_detail a {
+    width: 150px; 
+}
+
+
+.post_detail  h2 {
+    margin-bottom: .4em;
+}
+
+.post_detail .tags {
+    margin-bottom: 1.2em;
+    display: flex;
+}
+
+.tags p {
+    margin-right: .5em;
+    font-weight: bold;
+}
+
+.tags span {
+    font-weight: bold;
+}
+
+.createdby {
+    font-style: italic;
+    color: #444;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}

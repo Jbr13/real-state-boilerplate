@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.postContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: flex-start; /* Faz os itens quebrarem da esquerda para a direita */
+  max-width: 1256px; /* Defina um tamanho máximo para não ocupar a tela toda */
+  margin: 0 auto; /* Centraliza o container na tela */
+}
+
+
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 10px 25px;
+}

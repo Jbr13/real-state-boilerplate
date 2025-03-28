@@ -1,0 +1,12 @@
+.createProperty {
+    text-align: center;
+}
+
+.createProperty h2{
+    font-size: 2.2em;
+}
+
+.createProperty p{
+    color: #AAA;
+    margin-bottom: 2em;
+}
